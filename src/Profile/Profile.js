@@ -31,7 +31,9 @@ Profile.defaultProps = {
 
  Profile.propTypes = {
  numberProp: PropTypes.number,
- stringProp: PropTypes.string,
+ stringProp: PropTypes.string
  }
+
+ console.log(Profile.propTypes);
 
 export default Profile
